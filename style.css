@@ -1,6 +1,8 @@
+/*
 * {
     border: solid 1px red;
 }
+*/
 
 body {
     padding: 0;
@@ -48,9 +50,9 @@ body {
 
 .intro-button {
     background-color: #3882F6;
-    border: solid 1px #3882F6;
+    border: solid 1px white;
     color: white;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -93,11 +95,37 @@ body {
     background-color: #e5e7eb;
 }
 
+.quote h1 {
+    font-size: 36px;
+}
+
 .quote h3 {
     text-align: right;
 }
 
 .action {
-    padding: 25px 200px;
+    padding: 75px 200px;
     display: flex;
+}
+
+.shell {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.cta-right {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 25px 0;
+    color: white;
+    text-align: center;
 }
