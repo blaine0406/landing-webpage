@@ -38,7 +38,7 @@ body {
 }
 
 .intro {
-    padding: 0 100px;
+    padding: 25px 100px;
     background-color: #1f2937;
     color: white;
     display: flex;
@@ -46,17 +46,58 @@ body {
     align-items: center;
 }
 
-/*
-
-.intro img {
-    max-width: 250px;
+.intro-button {
+    background-color: #3882F6;
+    border: solid 1px #3882F6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
-*/
+.intro img {
+    max-width: 500px;
+    border-radius: 30px;
+    padding-bottom: 5px;
+}
+
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-basis: 50%;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px 200px;
+    }
+
+.yarn img {
+    max-height: 80px;
+    max-width: 80px;
+    border-radius: 20px;
+}
+
+.container-1 {
+    display: flex;
+    gap: 10px;
+
+}
+
+.quote {
+    padding: 25px 200px;
+    background-color: #e5e7eb;
+}
+
+.quote h3 {
+    text-align: right;
+}
+
+.action {
+    padding: 25px 200px;
+    display: flex;
 }
